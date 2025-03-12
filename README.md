@@ -17,7 +17,7 @@ This test pack has been confirmed to work with versions 11 and 21 of Java
 
 ### Maven:
 
-Installation instructions for Maven can be found [here](https://maven.apache.org/install.html)
+Instructions for installing Maven on Windows can be found [here](https://maven.apache.org/install.html)
 
 Alternatively on Mac OS you can install Maven using [homebrew](https://brew.sh/) and running the following command:
 
@@ -34,3 +34,9 @@ Instructions for downloading and installing chromedriver can be found [here](htt
 Alternatively on Mac OS you can install chromedriver using [homebrew](https://brew.sh/) and running the following command:
 
 ```brew install chromedriver```
+
+### Running the tests
+
+You can run the tests using the following command
+
+```mvn clean test```
